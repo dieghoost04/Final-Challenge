@@ -10,10 +10,11 @@ Este proyecto es una colaboración entre los siguientes estudiantes de la Univer
 - **Carlos Eduardo Ortega**        A01707480
 
 
-*Profesor: Juan Manuel Ledesma Rangel*
-*Profesor: Jesús Arturo Escobedo Cabello*
-*Profesor: Pablo Estéfano Arroyo Garrido*
-*Profesor: Juan Manuel Ledesma Rangel*
+- *Profesores: Juan Manuel Ledesma Rangel*
+- *Profesor: Jesús Arturo Escobedo Cabello*
+- *Profesor: Pablo Estéfano Arroyo Garrido*
+- *Profesor: Juan Manuel Ledesma Rangel*
+- *Profesor: Benigno Muñoz Barrón*
 
 
 # Proyecto de Localización y Navegación Autónoma en ROS
