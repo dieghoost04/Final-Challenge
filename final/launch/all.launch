@@ -1,0 +1,13 @@
+<launch>
+    <include file="$(find puzzlebot_autostart)/launch/puzzlebot_autostart.launch" />
+
+    <include file="$(find rplidar_ros)/launch/rplidar_a1.launch" />
+
+    <include file="$(find ros_deep_learning)/launch/video_source.ros1.launch" />
+
+    <include file="$(find aruco_markers_tec)/launch/aruco.launch" />
+
+    <node pkg="minichallenge_final" type="aruco_marker.py" name="aruco_postion" output="screen"/>
+    
+    <node pkg= "tf" type="static_transform_publisher" name="laser_to_base_link" args="0 0 0 0 -3.14 -3.14 base_link laser 50" />
+</launch>
